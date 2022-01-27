@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import appConfig from '../config.json';
 
-
 function Title(props) {
     const Tag = props.tag || 'h1';
     return (
